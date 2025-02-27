@@ -29,8 +29,8 @@ If you don't have these installed, follow the official documentation to install:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/dee-raj/auth-api.git
-    cd auth-api
+    git clone https://github.com/dee-raj/backend.git
+    cd backend
     ```
 
 2. Install the required dependencies:
@@ -70,6 +70,10 @@ To run the application, follow these steps:
    - Start the application with:
      ```bash
      npm start
+     ```
+     OR
+     ```bash
+     npm run dev
      ```
 
    The application will run on port `3030` by default (or another port specified in your `.env` file).
